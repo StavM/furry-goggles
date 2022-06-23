@@ -1,6 +1,6 @@
 {
 	"tabs": {
-		"remoteEntry": "https://cdn.jsdelivr.net/gh/stavm/furry-goggles/www/remoteEntry.js",
+		"remoteEntry": "https://raw.githubusercontent.com/StavM/furry-goggles/master/www/mf.manifest.json",
 
 		"exposedModule": "./Module",
 		"displayName": "My Tabs App",
