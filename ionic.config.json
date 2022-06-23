@@ -1,0 +1,7 @@
+{
+  "name": "ionicmfe",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
