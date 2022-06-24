@@ -3,7 +3,7 @@
 		"remoteEntry": "https://raw.githack.com/StavM/furry-goggles/master/www/remoteEntry.js",
 
 		"exposedModule": "./Module",
-		"displayName": "Tabs Page",
+		"displayName": "Tabs",
 		"routePath": "tabs",
 		"ngModuleName": "TabsPageModule"
 	}
