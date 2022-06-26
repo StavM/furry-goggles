@@ -20,9 +20,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+const TOP_URL = 'tab1';
+const BOT_URL = `${TOP_URL}/tab1`;
 const routes = [
     {
-        path: 'tabs2',
+        path: TOP_URL,
         component: _tabs_page__WEBPACK_IMPORTED_MODULE_2__.TabsPage,
         children: [
             {
@@ -39,14 +41,14 @@ const routes = [
             },
             {
                 path: '',
-                redirectTo: 'tabs/tab1',
+                redirectTo: BOT_URL,
                 pathMatch: 'full'
             }
         ]
     },
     {
         path: '',
-        redirectTo: 'tabs2/tab1',
+        redirectTo: BOT_URL,
         pathMatch: 'full'
     }
 ];
@@ -445,7 +447,7 @@ module.exports = ":host {\n  --ion-color-primary: blue;\n}\n/*# sourceMappingURL
   \************************************************/
 /***/ ((module) => {
 
-module.exports = "<ion-tabs>\n\n  <ion-tab-bar slot=\"bottom\">\n    <ion-tab-button tab=\"tab1\">\n      <ion-icon name=\"triangle\"></ion-icon>\n      <ion-label>Tab 1</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab2\">\n      <ion-icon name=\"ellipse\"></ion-icon>\n      <ion-label>Tab 2</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab3\">\n      <ion-icon name=\"square\"></ion-icon>\n      <ion-label>Tab 3</ion-label>\n    </ion-tab-button>\n  </ion-tab-bar>\n\n</ion-tabs>\n";
+module.exports = "<ion-header [translucent]=\"true\">\n  <ion-toolbar>\n    <ion-title>\n      Pokemon !\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content [fullscreen]=\"true\">\n  <ion-header collapse=\"condense\">\n    <ion-toolbar>\n      <ion-title size=\"large\">Pokemon !</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-accordion-group>\n    <ion-accordion value=\"first\">\n      <ion-item slot=\"header\" color=\"light\">\n        <ion-label>First Accordion</ion-label>\n      </ion-item>\n      <div class=\"ion-padding\" slot=\"content\">\n        First Content\n      </div>\n    </ion-accordion>\n    <ion-accordion value=\"second\">\n      <ion-item slot=\"header\" color=\"light\">\n        <ion-label>Second Accordion</ion-label>\n      </ion-item>\n      <div class=\"ion-padding\" slot=\"content\">\n        Second Content\n      </div>\n    </ion-accordion>\n    <ion-accordion value=\"third\">\n      <ion-item slot=\"header\" color=\"light\">\n        <ion-label>Third Accordion</ion-label>\n      </ion-item>\n      <div class=\"ion-padding\" slot=\"content\">\n        Third Content\n      </div>\n    </ion-accordion>\n  </ion-accordion-group>\n\n\n</ion-content>\n";
 
 /***/ })
 
