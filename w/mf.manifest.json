@@ -1,6 +1,6 @@
 {
 	"tab1": {
-		"remoteEntry": "https://rawcdn.githack.com/StavM/furry-goggles/master/w1/remoteEntry.js",
+		"remoteEntry": "https://rawcdn.githack.com/StavM/furry-goggles/master/ww1/remoteEntry.js",
 
 		"exposedModule": "./Module",
 		"displayName": "Demo App",
@@ -8,7 +8,7 @@
 		"ngModuleName": "TabsPageModule"
 	},
 	"tab2": {
-		"remoteEntry": "https://rawcdn.githack.com/StavM/furry-goggles/master/w2/remoteEntry.js",
+		"remoteEntry": "https://rawcdn.githack.com/StavM/furry-goggles/master/ww2/remoteEntry.js",
 
 		"exposedModule": "./Module",
 		"displayName": "UPS",
