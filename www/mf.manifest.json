@@ -12,7 +12,7 @@
 
 		"exposedModule": "./Module",
 		"displayName": "UPS",
-		"routePath": "tabs",
+		"routePath": "tabs1",
 		"ngModuleName": "TabsPageModule"
 	},
 	"flad": {
@@ -20,7 +20,7 @@
 
 		"exposedModule": "./Module",
 		"displayName": "DLA",
-		"routePath": "tabs",
+		"routePath": "tabs2",
 		"ngModuleName": "TabsPageModule"
 	},
 	"flag": {
@@ -28,7 +28,7 @@
 
 		"exposedModule": "./Module",
 		"displayName": "Demo-App",
-		"routePath": "tabs",
+		"routePath": "tabs3",
 		"ngModuleName": "TabsPageModule"
 	}
 }
