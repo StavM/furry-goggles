@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { TabsPage } from './tabs.page';
 
 const TOP_URL = 'tab3';
-const BOT_URL = `${TOP_URL}/tab1`
+const BOT_URL = `/${TOP_URL}/tab1`
 
 const routes: Routes = [
   {

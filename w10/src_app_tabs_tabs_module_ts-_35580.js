@@ -20,8 +20,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const TOP_URL = 'tab3';
-const BOT_URL = `${TOP_URL}/tab1`;
+const TOP_URL = 'tab1';
+const BOT_URL = `/${TOP_URL}/tab1`;
 const routes = [
     {
         path: TOP_URL,
