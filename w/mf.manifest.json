@@ -1,0 +1,18 @@
+{
+	"tab1": {
+		"remoteEntry": "https://rawcdn.githack.com/StavM/furry-goggles/master/w1/remoteEntry.js",
+
+		"exposedModule": "./Module",
+		"displayName": "Demo App",
+		"routePath": "tab1",
+		"ngModuleName": "TabsPageModule"
+	},
+	"tab2": {
+		"remoteEntry": "https://rawcdn.githack.com/StavM/furry-goggles/master/w2/remoteEntry.js",
+
+		"exposedModule": "./Module",
+		"displayName": "UPS",
+		"routePath": "tab2",
+		"ngModuleName": "TabsPageModule"
+	}
+}
