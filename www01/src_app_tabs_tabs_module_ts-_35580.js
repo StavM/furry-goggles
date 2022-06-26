@@ -149,7 +149,7 @@ TabsPage = (0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([
   \************************************************/
 /***/ ((module) => {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ0YWJzLnBhZ2Uuc2NzcyJ9 */";
+module.exports = ":host {\n  --ion-color-primary: red;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRhYnMucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usd0JBQUE7QUFDRiIsImZpbGUiOiJ0YWJzLnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIjpob3N0IHtcbiAgLS1pb24tY29sb3ItcHJpbWFyeTogcmVkO1xuXG59XG5cblxuIl19 */";
 
 /***/ }),
 
@@ -159,7 +159,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
   \************************************************/
 /***/ ((module) => {
 
-module.exports = "<ion-tabs>\n\n  <ion-tab-bar slot=\"bottom\">\n    <ion-tab-button tab=\"tab1\">\n      <ion-icon name=\"triangle\"></ion-icon>\n      <ion-label>Tab 1</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab2\">\n      <ion-icon name=\"ellipse\"></ion-icon>\n      <ion-label>Tab 2</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab3\">\n      <ion-icon name=\"square\"></ion-icon>\n      <ion-label>Tab 3</ion-label>\n    </ion-tab-button>\n  </ion-tab-bar>\n\n</ion-tabs>\n";
+module.exports = "<ion-header [translucent]=\"true\">\n  <ion-toolbar>\n    <ion-title>\n      Pokemon !\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content [fullscreen]=\"true\">\n  <ion-header collapse=\"condense\">\n    <ion-toolbar>\n      <ion-title size=\"large\">Pokemon !</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-accordion-group>\n    <ion-accordion value=\"first\">\n      <ion-item slot=\"header\" color=\"light\">\n        <ion-label>First Accordion</ion-label>\n      </ion-item>\n      <div class=\"ion-padding\" slot=\"content\">\n        First Content\n      </div>\n    </ion-accordion>\n    <ion-accordion value=\"second\">\n      <ion-item slot=\"header\" color=\"light\">\n        <ion-label>Second Accordion</ion-label>\n      </ion-item>\n      <div class=\"ion-padding\" slot=\"content\">\n        Second Content\n      </div>\n    </ion-accordion>\n    <ion-accordion value=\"third\">\n      <ion-item slot=\"header\" color=\"light\">\n        <ion-label>Third Accordion</ion-label>\n      </ion-item>\n      <div class=\"ion-padding\" slot=\"content\">\n        Third Content\n      </div>\n    </ion-accordion>\n  </ion-accordion-group>\n\n\n</ion-content>\n";
 
 /***/ })
 

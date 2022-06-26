@@ -8,7 +8,7 @@
 		"ngModuleName": "TabsPageModule"
 	},
 	"blaf": {
-		"remoteEntry": "https://raw.githack.com/StavM/furry-goggles/master/www1/remoteEntry.js",
+		"remoteEntry": "https://raw.githack.com/StavM/furry-goggles/master/www01/remoteEntry.js",
 
 		"exposedModule": "./Module",
 		"displayName": "UPS",
@@ -16,7 +16,7 @@
 		"ngModuleName": "TabsPageModule"
 	},
 	"flad": {
-		"remoteEntry": "https://raw.githack.com/StavM/furry-goggles/master/www2/remoteEntry.js",
+		"remoteEntry": "https://raw.githack.com/StavM/furry-goggles/master/www/remoteEntry.js",
 
 		"exposedModule": "./Module",
 		"displayName": "DLA",
@@ -24,7 +24,7 @@
 		"ngModuleName": "TabsPageModule"
 	},
 	"flag": {
-		"remoteEntry": "https://raw.githack.com/StavM/furry-goggles/master/www3/remoteEntry.js",
+		"remoteEntry": "https://raw.githack.com/StavM/furry-goggles/master/www/remoteEntry.js",
 
 		"exposedModule": "./Module",
 		"displayName": "Demo-App",
