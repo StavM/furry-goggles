@@ -27,7 +27,7 @@
 		"remoteEntry": "https://raw.githack.com/StavM/furry-goggles/master/www/remoteEntry.js",
 
 		"exposedModule": "./Module",
-		"displayName": "Another demo app",
+		"displayName": "Demo-App",
 		"routePath": "tabs",
 		"ngModuleName": "TabsPageModule"
 	}
