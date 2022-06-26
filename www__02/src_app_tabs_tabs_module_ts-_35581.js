@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const routes = [
     {
-        path: 'tabs',
+        path: 'tabs2',
         component: _tabs_page__WEBPACK_IMPORTED_MODULE_2__.TabsPage,
         children: [
             {
@@ -46,7 +46,7 @@ const routes = [
     },
     {
         path: '',
-        redirectTo: 'tabs/tab1',
+        redirectTo: 'tabs2/tab1',
         pathMatch: 'full'
     }
 ];
@@ -435,7 +435,7 @@ function __classPrivateFieldIn(state, receiver) {
   \************************************************/
 /***/ ((module) => {
 
-module.exports = ":host {\n  --ion-color-primary: brown;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRhYnMucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsMEJBQUE7QUFDRiIsImZpbGUiOiJ0YWJzLnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIjpob3N0IHtcbiAgLS1pb24tY29sb3ItcHJpbWFyeTogYnJvd247XG5cbn1cblxuXG4iXX0= */";
+module.exports = ":host {\n  --ion-color-primary: blue;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRhYnMucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UseUJBQUE7QUFDRiIsImZpbGUiOiJ0YWJzLnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIjpob3N0IHtcbiAgLS1pb24tY29sb3ItcHJpbWFyeTogYmx1ZTtcblxufVxuXG5cbiJdfQ== */";
 
 /***/ }),
 
@@ -445,7 +445,7 @@ module.exports = ":host {\n  --ion-color-primary: brown;\n}\n/*# sourceMappingUR
   \************************************************/
 /***/ ((module) => {
 
-module.exports = "<ion-tabs>\n\n  <ion-tab-bar slot=\"top\">\n    <ion-tab-button tab=\"tab1\">\n      <ion-icon name=\"person-outline\"></ion-icon>\n      <ion-label>First</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab2\">\n      <ion-icon name=\"person-outline\"></ion-icon>\n      <ion-label>Second</ion-label>\n    </ion-tab-button>\n\n  </ion-tab-bar>\n\n</ion-tabs>\n";
+module.exports = "<ion-tabs>\n\n  <ion-tab-bar slot=\"bottom\">\n    <ion-tab-button tab=\"tab1\">\n      <ion-icon name=\"triangle\"></ion-icon>\n      <ion-label>Tab 1</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab2\">\n      <ion-icon name=\"ellipse\"></ion-icon>\n      <ion-label>Tab 2</ion-label>\n    </ion-tab-button>\n\n    <ion-tab-button tab=\"tab3\">\n      <ion-icon name=\"square\"></ion-icon>\n      <ion-label>Tab 3</ion-label>\n    </ion-tab-button>\n  </ion-tab-bar>\n\n</ion-tabs>\n";
 
 /***/ })
 

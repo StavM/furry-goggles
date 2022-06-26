@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const routes = [
     {
-        path: 'tabs',
+        path: 'tabs2',
         component: _tabs_page__WEBPACK_IMPORTED_MODULE_2__.TabsPage,
         children: [
             {
@@ -46,7 +46,7 @@ const routes = [
     },
     {
         path: '',
-        redirectTo: 'tabs/tab1',
+        redirectTo: 'tabs2/tab1',
         pathMatch: 'full'
     }
 ];
@@ -149,7 +149,7 @@ TabsPage = (0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([
   \************************************************/
 /***/ ((module) => {
 
-module.exports = ":host {\n  --ion-color-primary: yellow;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRhYnMucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsMkJBQUE7QUFDRiIsImZpbGUiOiJ0YWJzLnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIjpob3N0IHtcbiAgLS1pb24tY29sb3ItcHJpbWFyeTogeWVsbG93O1xuXG59XG5cblxuIl19 */";
+module.exports = ":host {\n  --ion-color-primary: blue;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRhYnMucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UseUJBQUE7QUFDRiIsImZpbGUiOiJ0YWJzLnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIjpob3N0IHtcbiAgLS1pb24tY29sb3ItcHJpbWFyeTogYmx1ZTtcblxufVxuXG5cbiJdfQ== */";
 
 /***/ }),
 

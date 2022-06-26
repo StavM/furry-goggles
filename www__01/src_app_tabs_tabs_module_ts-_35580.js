@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const routes = [
     {
-        path: 'tabs',
+        path: 'tabs1',
         component: _tabs_page__WEBPACK_IMPORTED_MODULE_2__.TabsPage,
         children: [
             {
@@ -46,7 +46,7 @@ const routes = [
     },
     {
         path: '',
-        redirectTo: 'tabs/tab1',
+        redirectTo: 'tabs1/tab1',
         pathMatch: 'full'
     }
 ];

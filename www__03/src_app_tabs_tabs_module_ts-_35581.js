@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const routes = [
     {
-        path: 'tabs',
+        path: 'tabs3',
         component: _tabs_page__WEBPACK_IMPORTED_MODULE_2__.TabsPage,
         children: [
             {
@@ -46,7 +46,7 @@ const routes = [
     },
     {
         path: '',
-        redirectTo: 'tabs/tab1',
+        redirectTo: 'tabs3/tab1',
         pathMatch: 'full'
     }
 ];
@@ -435,7 +435,7 @@ function __classPrivateFieldIn(state, receiver) {
   \************************************************/
 /***/ ((module) => {
 
-module.exports = ":host {\n  --ion-color-primary: red;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRhYnMucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usd0JBQUE7QUFDRiIsImZpbGUiOiJ0YWJzLnBhZ2Uuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIjpob3N0IHtcbiAgLS1pb24tY29sb3ItcHJpbWFyeTogcmVkO1xuXG59XG5cblxuIl19 */";
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ0YWJzLnBhZ2Uuc2NzcyJ9 */";
 
 /***/ }),
 
