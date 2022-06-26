@@ -2,7 +2,7 @@ const { shareAll, withModuleFederationPlugin } = require('@angular-architects/mo
 
 module.exports = withModuleFederationPlugin({
 
-  name: 'tabs',
+  name: 'tabs3',
 
   exposes: {
     './Module': './src/app/tabs/tabs.module.ts',
